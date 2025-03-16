@@ -22,7 +22,7 @@ const App = () => {
     }
   });
 
-  const API_URL = 'https://clouddrop-backend.vercel.app/api/upload'|| 'http://localhost:3000/api';
+  const API_URL = 'https://clouddrop-backend.vercel.app/api'|| 'http://localhost:3000/api';
 
   const handleCopy = async () => {
     try {
